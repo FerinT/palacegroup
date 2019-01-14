@@ -1,0 +1,26 @@
+{
+  "name": "palacegroup",
+  "version": "1.0.0",
+  "description": "dependancy manager for palace group static site",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FerinT/palacegroup.git"
+  },
+  "author": "Ferin Taylor",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "express": "^4.16.4",
+    "jquery": "^3.3.1",
+    "less": "^3.9.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "bugs": {
+    "url": "https://github.com/FerinT/palacegroup/issues"
+  },
+  "homepage": "https://github.com/FerinT/palacegroup#readme"
+}
