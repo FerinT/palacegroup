@@ -23,36 +23,40 @@
 
 
 <!-- header bar -->
-<div>
-    <img class='img-fluid logo' src="/images/logo.png" style="z-index: 5"/>
+<div id="top" class="row">
+    <div class="float-left col-md-6">
+        <img class='img-fluid logo' src="/images/logo.png" style="z-index: 5"/>
+    </div>
 
     <!-- navigation -->
-    <nav class="navbar navbar-expand-sm fixed-top text-right top-right">
-        <div class="container">
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link navigation" href="#">HOME</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">CASINO</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">SPORTS</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">BINGO</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">GAMES</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">...</a>
-                    </li>
-                </ul>
+    <div class="col-md-6 float-right">
+        <nav class="navbar navbar-expand-sm fixed-top float-right top-right">
+            <div class="container">
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link navigation" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">CASINO</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">SPORTS</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">BINGO</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">GAMES</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/test">...</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
     <!-- navigation end -->
 
     <!-- advertisement section -->
@@ -62,7 +66,7 @@
 
         <button class="btn-primary-outline bg-transparent palace-font btn-lg"
                 style="z-index: 5; border-color: #C9A577; color: #C9A577;" data-toggle="modal"
-                data-target="#myModal"><span style="border: 2px solid #C9A577;
+                data-target="#testModal"><span style="border: 2px solid #C9A577;
   border-radius: 25px; font-weight: lighter">PLAY NOW</span></button>
         </br>
         <p class="palace-font-color-beige" style="font-size: 10pt">READ MORE</p>
@@ -71,36 +75,36 @@
 
     <img class='img-fluid w-100 headerImage' src="/images/7795_TPG_Homepage_Hero.jpg"/>
 </div>
-<div id="demo" class="carousel slide" data-ride="carousel">
+<div id="gameCarousel" class="carousel slide" data-ride="carousel">
 
 
     <!-- The slideshow -->
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="/images/c1.png" alt="Los Angeles" width="110" height="50">
+            <img src="/images/c1.png" width="110" height="50">
         </div>
         <div class="carousel-item">
-            <img src="/images/c2.png" alt="Chicago" width="110" height="50">
+            <img src="/images/c2.png" width="110" height="50">
         </div>
         <div class="carousel-item">
-            <img src="/images/c3.png" alt="New York" width="110" height="50">
+            <img src="/images/c3.png" width="110" height="50">
         </div>
     </div>
 
     <!-- Left and right controls -->
-    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <a class="carousel-control-prev" href="#gameCarousel" data-slide="prev">
         <span class="carousel-control-prev-icon"></span>
     </a>
-    <a class="carousel-control-next" href="#demo" data-slide="next">
+    <a class="carousel-control-next" href="#gameCarousel" data-slide="next">
         <span class="carousel-control-next-icon"></span>
     </a>
 </div>
 <!-- header bar end-->
 
 <div class="text-center row">
-    <p style="font-size: 30pt; color:grey" class="palace-font col-md-12">WELCOME TO THE PALACE GROUP</p>
-    <p style="font-size: 15pt; color:grey" class="palace-font col-md-12">The home of our casino and sports brands.</p>
-    <p style="font-size: 10pt; color:grey;" class="palace-font col-md-9 offset-md-2">Lorem Ipsum is simply dummy text of
+    <p style="font-size: 30pt;" class="palace-font col-md-12 text-grey">WELCOME TO THE PALACE GROUP</p>
+    <p style="font-size: 15pt;" class="palace-font col-md-12 text-grey">The home of our casino and sports brands.</p>
+    <p style="font-size: 10pt;" class="palace-font col-md-9 offset-md-2 text-grey">Lorem Ipsum is simply dummy text of
         the printing and typesetting industry. Lorem Ipsum has been the industry's
         standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
         a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
@@ -152,31 +156,207 @@
 <br>
 <!-- long image section -->
 <div class="row">
-    <img src="images/7795_TPG_Homepage_Body_slots.jpg" class="col-md-3 no-padding">
-    <img src="images/7795_TPG_Homepage_Body_sports.jpg" class="col-md-3 no-padding">
-    <img src="images/7795_TPG_Homepage_Body_slots.jpg" class="col-md-3 no-padding">
-    <img src="images/7795_TPG_Homepage_Body_slotsG.jpg" class="col-md-3 no-padding">
+    <img src="images/g1.png" class="col-md-3 no-padding">
+    <img src="images/g2.png" class="col-md-3 no-padding">
+    <img src="images/g3.png" class="col-md-3 no-padding">
+    <img src="images/g4.png" class="col-md-3 no-padding">
 </div>
 
+<!-- mobile section -->
+<div class="row">
+    <div class="col-md-6 no-padding" style="position: relative; left: 0; top: 0;">
+        <img src="/images/7795_TPG_Homepage_PhoneBknd.jpg"
+             style="position: relative; top: 0; left: 0; width:100%; height: 100%;">
+        <img src="/images/7795_TPG_Homepage_Phone.png" style="position: absolute; top: 0; height: 100%; width: 90%;">
+    </div>
+    <div class="col-md-6 no-padding">
+        <img src="/images/Mobile-Play.png" style="padding-top: 10px; padding-left: 10px">
+        <div class="container">
+            <p style="font-size: 30pt; color:grey; text-align:left; font-weight: bold" class="palace-font">Play
+                Cross-Platform.</p>
+            <p style="font-size: 20pt; color:grey; text-align:left" class="palace-font">You can play anytime,
+                anywhere, on any device</p>
+            <p style="font-size: 10pt; color:grey; text-align:left" class="palace-font">Lorem Ipsum is simply
+                dummy text of
+                the printing and typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s. It has survived not only five centuries, but also the leap
+                into electronic
+                typesetting,
+                remaining essentially unchanged. t was popularised in the 1960s with the release of Letraset sheets
+                containing
+                Lorem Ipsum passages.
+            </p>
+            <p class="palace-font mobile-section-text">Lorem Ipsum is simply
+                dummy text of
+                the printing and typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make
+                a type specimen book.
+            </p>
+            <p class="palace-font mobile-section-text">It has survived not only five
+                centuries, but also the leap into electronic
+                typesetting,
+                remaining essentially unchanged. t was popularised in the 1960s with the release of Letraset sheets
+                containing
+                Lorem Ipsum passages.
+            </p>
+
+            <strong><p class="palace-font mobile-section-text">It has survived not only
+                five centuries, but also the leap into electronic
+                typesetting,
+                remaining essentially unchanged.
+            </p></strong>
+
+            <button class="btn-primary-outline bg-transparent palace-font btn-lg"
+                    style="z-index: 5; border-color: #C9A577; color: #C9A577;"><span style="border: 2px solid #C9A577;
+  border-radius: 25px; font-weight: lighter">Read More</span></button>
+        </div>
+    </div>
+</div>
+
+<div class="row" style="background-color: #D4CEBD;">
+    <div class="col-md-4 palace-font center text-center">
+        <img src="/images/Live-Help.png" class="center">
+        <strong><p>Get Live Support</p></strong>
+        <p class="col-md-4 offset-md-4">Lorem Ipsum is simply
+            dummy text of
+            the printing and typesetting industry. Lorem Ipsum has been the industry's
+            standard.</p>
+    </div>
+    <div class="col-md-4 palace-font center text-center">
+        <img src="/images/Banking-Icon.png" class="center">
+        <strong><p>Secure Banking</p></strong>
+        <p class="col-md-4 offset-md-4">Lorem Ipsum is simply
+            dummy text of
+            the printing and typesetting industry. Lorem Ipsum has been the industry's
+            standard.</p>
+    </div>
+    <div class="col-md-4 palace-font center text-center">
+        <img src="/images/Approved.png" class="center">
+        <strong><p>Registered and approved</p></strong>
+        <p class="col-md-4 offset-md-4">Lorem Ipsum is simply
+            dummy text of
+            the printing and typesetting industry. Lorem Ipsum has been the industry's
+            standard.</p>
+    </div>
+</div>
+
+
+<!-- bonus points section -->
+
+<div class="row">
+    <div class="col-md-6">
+        <img src="/images/Bonus-Icon.png" style="padding-top: 10px; padding-left: 10px">
+        <div class="container">
+            <p style="font-size: 30pt;text-align:left; font-weight: bold" class="palace-font text-grey">Play
+                Cross-Platform.</p>
+            <p style="font-size: 20pt; text-align:left" class="palace-font text-grey">You can play anytime,
+                anywhere, on any device</p>
+            <p style="font-size: 10pt; text-align:left" class="palace-font text-grey">Lorem Ipsum is simply
+                dummy text of
+                the printing and typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s. It has survived not only five centuries, but also the leap
+                into electronic
+                typesetting,
+                remaining essentially unchanged. t was popularised in the 1960s with the release of Letraset sheets
+                containing
+                Lorem Ipsum passages.
+            </p>
+            <p style="font-size: 10pt; text-align:left" class="palace-font text-grey">Lorem Ipsum is simply
+                dummy text of
+                the printing and typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s.
+            </p>
+            <p style="font-size: 10pt; text-align:left" class="palace-font text-grey">It has survived not only five
+                centuries, but also the leap into electronic
+                typesetting,
+                remaining essentially unchanged.
+            </p>
+
+            <strong><p style="font-size: 10pt; color:grey; text-align:left" class="palace-font">It has survived not only
+                five centuries, but also the leap into electronic
+                typesetting,
+                remaining essentially unchanged.
+            </p></strong>
+
+            <button class="btn-primary-outline bg-transparent palace-font btn-lg"
+                    style="z-index: 5; border-color: #C9A577; color: #C9A577;"><span style="border: 2px solid #C9A577;
+  border-radius: 25px; font-weight: lighter">Read More</span></button>
+        </div>
+    </div>
+    <div class="col-md-6 no-padding">
+        <img src="/images/7795_TPG_Homepage_PhoneBknd.jpg"
+             style="position: relative; top: 0; left: 0; width:100%; height: 100%;">
+    </div>
+</div>
+
+<div class="row" style="background-color:#566277">
+    <div class="col-md-3 center text-center" style="border-right: solid #3C465A thin">
+        <p class="palace-font-color-beige" style="font-size: 40pt">12</p>
+        <p class="palace-font-white" style="font-size: 10pt">Gaming Brands</p>
+        <p class="palace-font-white" style="font-size: 5pt">Lorem Ipsum is simply dummy text of</p>
+    </div>
+    <div class="col-md-3 center text-center" style="border-right: solid #3C465A thin">
+        <p class="palace-font-color-beige" style="font-size: 40pt">450</p>
+        <p class="palace-font-white" style="font-size: 10pt">Games</p>
+        <p class="palace-font-white" style="font-size: 5pt">Lorem Ipsum is simply dummy text of</p>
+    </div>
+    <div class="col-md-3 center text-center" style="border-right: solid #3C465A thin">
+        <p class="palace-font-color-beige" style="font-size: 40pt">500k</p>
+        <p class="palace-font-white" style="font-size: 10pt">Players Registered</p>
+        <p class="palace-font-white" style="font-size: 5pt">Lorem Ipsum is simply dummy text of</p>
+    </div>
+    <div class="col-md-3 center text-center">
+        <p class="palace-font-color-beige" style="font-size: 40pt">20</p>
+        <p class="palace-font-white" style="font-size: 10pt">Countries</p>
+        <p class="palace-font-white" style="font-size: 5pt">Lorem Ipsum is simply dummy text of</p>
+    </div>
+</div>
+
+<div class="row" style="background-color: #74ccbb">
+    <p style="color:#3C465A; font-size: 16pt" class="text-center palace-font col-md-12"> OVER <span style="color:white">$200 MILLION</span>
+        PAID OUT IN WINNING TO DATE! </p>
+</div>
+
+<footer class="background-dark-blue">
+    <br>
+    <div class="row">
+        <div class="float-right col-md-6">
+            <button class="btn-primary-outline bg-transparent palace-font float-right support-btn center" id="supportButton">
+                support@thepalacegroup.com
+            </button>
+        </div>
+        <div class="col-md-6">
+            <a href="#top" class="float-right" style="padding-right: 10px"> <img src="/images/Up-Arrow.png"></a>
+        </div>
+    </div>
+    <div class="row" style="padding-right: 280px; padding-left: 280px;font-size: 8pt">
+        <div class="col-md-3 palace-font-white">SAFETY AND SECURITY</div>
+        <div class="col-md-3 palace-font-white">AFFILIATE</div>
+        <div class="col-md-3 palace-font-white">RESPONSIBLE ONLINE GAMBLING</div>
+        <div class="col-md-3 palace-font-white">CONTACT US</div>
+    </div>
+
+    <hr>
+    <div class="row center">
+        <div class="col-md-12 center-block text-center">
+            <img src="/images/f1.png">
+            <img src="/images/f2.png">
+            <img src="/images/f3.png">
+            <img src="/images/f4.png">
+        </div>
+    </div>
+
+</footer>
 
 </div>
 <!-- The Modal -->
-<div class="modal" id="myModal">
+<div class="modal" id="testModal">
     <div class="modal-dialog">
         <div class="modal-content">
-
-            <!-- Modal Header -->
-            <div class="modal-header">
-                <h4 class="modal-title">Modal Heading</h4>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-
-            <!-- Modal body -->
             <div class="modal-body">
-                Modal body..
+                This is just a test static message
             </div>
-
-            <!-- Modal footer -->
             <div class="modal-footer">
                 <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
             </div>
